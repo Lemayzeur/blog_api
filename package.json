@@ -1,0 +1,23 @@
+{
+  "name": "express-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js localhost 8080"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "1.19.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "4.16.4",
+    "express-rate-limit": "^6.7.0",
+    "pg": "8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
